@@ -1,7 +1,7 @@
 name: readotp
 description: A flutter plugin that reads incoming SMS on device as a broadcast stream.
 version: 0.1.0+3
-homepage: "https://github.com/support_libs/readotp_plugin"
+homepage: "https://github.com/AkshayJayale/readotp.git"
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
