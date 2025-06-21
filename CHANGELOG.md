@@ -1,4 +1,4 @@
-## 1.0.1+4
+## 1.0.1+7
 
 * First public release of the readotp plugin for Flutter. 
 * Enables automatic OTP reading on Android devices. 
