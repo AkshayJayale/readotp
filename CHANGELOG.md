@@ -1,20 +1,8 @@
-## 0.1.0+3
-* Migrated to latest Flutter version
-* Added RECEIVE_SMS permission to AndroidManifest implicitly
-* Removed iOS platform
-* Fix #2 Fatal exception when app is terminated
-* Updated SDK version constraints
+## 1.0.1+3
 
-## 0.0.2+2
-
-* Added SMS model
-* Now each incoming SMS supports Senders contact and timestamp as well
-* Changed stream type of readotp().smsStream to Stream<SMS>
-* Updated example/lib/main.dart
-
-## 0.0.1
-
-* This is the first release of readotp plugin for Flutter.
-* This plugin currently supports Android
-* IoS support to be expected in next release
-* More functionalities will be added there after.
+* First public release of the readotp plugin for Flutter. 
+* Enables automatic OTP reading on Android devices. 
+* iOS support is planned for an upcoming release. 
+* Upcoming iOS compatibility. 
+* Upgraded Flutter SDK constraint to ^3.27.3 
+* Updated Android target SDK version to API level 35
