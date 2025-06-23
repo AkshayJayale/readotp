@@ -71,7 +71,7 @@ class _MyAppState extends State<MyApp> {
               Text('New SMS received: $sms'),
               Text('Sender: $sender'),
               Text('Received at: $time'),
-              Text('Received at: $otpCode'),
+              Text('Received OTP: $otpCode'),
             ],
           ),
         ),
