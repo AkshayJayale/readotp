@@ -18,6 +18,8 @@ class _MyAppState extends State<MyApp> {
   String sms = 'No SMS received';
   String sender = 'No SMS received';
   String time = 'No SMS received';
+  final intRegex = RegExp(r'\d+', multiLine: true);
+  String otpCode = "";
 
   @override
   void initState() {
@@ -34,6 +36,8 @@ class _MyAppState extends State<MyApp> {
           sms = event.body;
           sender = event.sender;
           time = event.timeReceived.toString();
+          final otp = intRegex.firstMatch(event.body)?.group(0);
+          otpCode = otp!;
         });
       });
     }
@@ -67,6 +71,7 @@ class _MyAppState extends State<MyApp> {
               Text('New SMS received: $sms'),
               Text('Sender: $sender'),
               Text('Received at: $time'),
+              Text('Received at: $otpCode'),
             ],
           ),
         ),
