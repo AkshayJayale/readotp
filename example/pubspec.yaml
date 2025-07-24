@@ -4,12 +4,13 @@ description: Demonstrates how to use the readotp plugin.
 publish_to: 'none'
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"       # Recommended for Flutter 3.22.7 (Dart 3.3.0+)
+  flutter: ">=3.22.0"         # Match Flutter 3.22.7 minimum
 
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: 11.3.1
+  permission_handler: ^12.0.1
   readotp:
     path: ../
   cupertino_icons: ^1.0.2

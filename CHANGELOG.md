@@ -1,3 +1,8 @@
+## 1.0.2+11
+
+* Flutter Upgrade
+
+
 ## 1.0.1+7
 
 * First public release of the readotp plugin for Flutter. 
